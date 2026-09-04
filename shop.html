@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OSOIS Shop — Wear the Standard</title>
+<meta name="description" content="Explore the OSOIS Shop — refined apparel, training essentials, accessories, and academy goods built around the OSOIS standard.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="logo-group"><img src="assets/logo-full.png" alt="OSOIS Network" class="logo-full-img"></a>
+    <nav class="nav-links">
+      <a href="network.html">Network</a>
+      <a href="academy.html">Academy</a>
+      <a href="production.html">Production</a>
+      <a href="about.html">About</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#collection" class="shop-bag-link" aria-label="View collection">Collection <span>00</span></a>
+      <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-drawer">
+  <button class="close-drawer" aria-label="Close menu">&times;</button>
+  <a href="network.html">Network</a><a href="academy.html">Academy</a><a href="production.html">Production</a><a href="about.html">About</a><a href="shop.html">Shop</a><a href="contact.html">Contact</a>
+  <a href="#collection" class="btn btn-primary" style="width:fit-content;margin-top:10px;">View Collection →</a>
+</div>
+
+<main>
+  <section class="shop-hero">
+    <div class="shop-hero-art"></div>
+    <div class="container shop-hero-grid">
+      <div class="shop-hero-copy">
+        <span class="eyebrow">OSOIS / Shop</span>
+        <h1>Wear The<br><span class="accent">Standard.</span></h1>
+        <p>Purpose-built apparel and essentials for the people shaping the OSOIS Network — refined, functional, and unmistakably OSOIS.</p>
+        <div class="hero-cta">
+          <a href="#collection" class="btn btn-primary">Explore Collection →</a>
+          <a href="#notify" class="btn btn-outline">Get Launch Updates</a>
+        </div>
+      </div>
+      <div class="shop-hero-badge">
+        <span>01</span>
+        <strong>Founding Collection</strong>
+        <small>Designed around the OSOIS Academy, Network, and creative lifestyle.</small>
+      </div>
+    </div>
+    <div class="shop-marquee" aria-hidden="true"><span>CREATE</span><i>—</i><span>ELEVATE</span><i>—</i><span>INSPIRE</span><i>—</i><span>OSOIS</span></div>
+  </section>
+
+  <section class="shop-intro dark">
+    <div class="container shop-intro-grid">
+      <div><span class="eyebrow">The Collection</span><h2>Built For<br>The Network.</h2></div>
+      <div><p class="shop-large-copy">Not throwaway merch. The OSOIS collection is envisioned as a uniform system for training, production days, travel, events, and everyday wear.</p><p>Pieces are being developed with a restrained black, royal-blue, silver, and gold visual language so every item feels connected to the brand.</p></div>
+    </div>
+  </section>
+
+  <section class="shop-feature darker">
+    <div class="shop-feature-media">
+      <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1400&q=85" alt="Premium black jacket concept for the OSOIS collection">
+      <div class="shop-wordmark">OSOIS</div>
+    </div>
+    <div class="shop-feature-copy">
+      <span class="eyebrow">Signature Piece / 001</span>
+      <div class="product-status">In Development</div>
+      <h2>Member<br>Jacket.</h2>
+      <p>The signature OSOIS layer: structured athletic styling, wolf crest branding, department identity, and a modular patch system designed to evolve with each member.</p>
+      <div class="product-specs"><span>Black Base</span><span>Royal Blue Detail</span><span>Wolf Crest</span><span>Member Patches</span></div>
+      <button class="btn btn-outline product-notify" data-product="OSOIS Member Jacket">Notify Me →</button>
+    </div>
+  </section>
+
+  <section class="shop-catalog dark" id="collection">
+    <div class="container">
+      <div class="shop-section-head">
+        <div><span class="eyebrow">Founding Collection / Preview</span><h2>OSOIS Essentials.</h2></div>
+        <div class="shop-filter" role="group" aria-label="Product categories">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="apparel">Apparel</button>
+          <button data-filter="training">Training</button>
+          <button data-filter="accessories">Accessories</button>
+          <button data-filter="academy">Academy</button>
+        </div>
+      </div>
+
+      <div class="shop-grid" id="shopGrid">
+        <article class="shop-card" data-category="apparel">
+          <div class="shop-card-image"><img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=900&q=80" alt="Black performance jacket"><span class="shop-card-number">001</span><span class="shop-card-pill">Signature</span></div>
+          <div class="shop-card-info"><div><h3>Member Jacket</h3><p>Structured athletic outer layer with OSOIS identity system.</p></div><span class="shop-card-price">Coming Soon</span></div>
+        </article>
+        <article class="shop-card" data-category="training">
+          <div class="shop-card-image"><img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80" alt="Black athletic training apparel"><span class="shop-card-number">002</span></div>
+          <div class="shop-card-info"><div><h3>Core Training Tank</h3><p>Modest performance layer for Academy sessions and rehearsals.</p></div><span class="shop-card-price">Coming Soon</span></div>
+        </article>
+        <article class="shop-card" data-category="training">
+          <div class="shop-card-image"><img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=900&q=80" alt="Performance training wear"><span class="shop-card-number">003</span></div>
+          <div class="shop-card-info"><div><h3>Performance Legging</h3><p>Clean studio-ready silhouette designed for movement and training.</p></div><span class="shop-card-price">Coming Soon</span></div>
+        </article>
+        <article class="shop-card" data-category="apparel">
+          <div class="shop-card-image"><img src="https://images.unsplash.com/photo-1527719327859-c6ce80353573?auto=format&fit=crop&w=900&q=80" alt="Minimal black sweatshirt"><span class="shop-card-number">004</span></div>
+          <div class="shop-card-info"><div><h3>Network Crew</h3><p>Minimal off-duty layer with restrained OSOIS branding.</p></div><span class="shop-card-price">Coming Soon</span></div>
+        </article>
+        <article class="shop-card" data-category="accessories">
+          <div class="shop-card-image"><img src="https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=900&q=80" alt="Black cap"><span class="shop-card-number">005</span></div>
+          <div class="shop-card-info"><div><h3>Wolf Crest Cap</h3><p>Low-profile everyday cap centered on the OSOIS wolf emblem.</p></div><span class="shop-card-price">Coming Soon</span></div>
+        </article>
+        <article class="shop-card" data-category="accessories">
+          <div class="shop-card-image"><img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80" alt="Black travel bag"><span class="shop-card-number">006</span></div>
+          <div class="shop-card-info"><div><h3>Studio Carryall</h3><p>Daily carry for training, productions, castings, and travel.</p></div><span class="shop-card-price">Coming Soon</span></div>
+        </article>
+        <article class="shop-card" data-category="academy">
+          <div class="shop-card-image academy-product"><div class="book-stack"><span>I</span><span>II</span><span>III</span></div><span class="shop-card-number">007</span><span class="shop-card-pill">Academy</span></div>
+          <div class="shop-card-info"><div><h3>Academy Workbook Series</h3><p>Level-based learning materials built around the OSOIS curriculum.</p></div><span class="shop-card-price">Academy Use</span></div>
+        </article>
+        <article class="shop-card" data-category="accessories">
+          <div class="shop-card-image crest-product"><img src="assets/logo.png" alt="OSOIS wolf emblem"><span class="shop-card-number">008</span></div>
+          <div class="shop-card-info"><div><h3>Wolf Emblem Set</h3><p>Collectible OSOIS identity pieces for approved applications.</p></div><span class="shop-card-price">Coming Soon</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="shop-standard darker">
+    <div class="container">
+      <span class="eyebrow">Designed With Intention</span>
+      <div class="shop-principles">
+        <div><span>01</span><h3>Purpose</h3><p>Every item should serve a real role in training, production, travel, or everyday life.</p></div>
+        <div><span>02</span><h3>Identity</h3><p>Wolf, hexagon, rank, and department systems create a recognizable OSOIS language.</p></div>
+        <div><span>03</span><h3>Modesty</h3><p>Training and lifestyle pieces are designed around the brand's modest, professional standard.</p></div>
+        <div><span>04</span><h3>Longevity</h3><p>A restrained visual system keeps the collection premium instead of trend-dependent.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="shop-notify" id="notify">
+    <div class="container shop-notify-grid">
+      <div><span class="eyebrow">First Access</span><h2>Join The<br>Launch List.</h2><p>Get notified when the first OSOIS products, member pieces, and Academy essentials become available.</p></div>
+      <form class="shop-notify-form" id="shopNotifyForm">
+        <label for="shopEmail">Email address</label>
+        <div class="shop-email-row"><input id="shopEmail" type="email" placeholder="you@example.com" required><button class="btn btn-primary" type="submit">Notify Me →</button></div>
+        <div class="form-status" id="shopNotifyStatus" aria-live="polite"></div>
+        <small>Preview form only. Connect your email platform before launch.</small>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="index.html" class="logo-group"><img src="assets/logo-full.png" alt="OSOIS Network" class="logo-full-img footer-logo"></a>
+      <nav class="footer-nav"><a href="network.html">Network</a><a href="academy.html">Academy</a><a href="production.html">Production</a><a href="about.html">About</a><a href="shop.html">Shop</a><a href="contact.html">Contact</a></nav>
+      <div class="footer-social"><a href="contact.html">IG</a><a href="contact.html">TT</a><a href="contact.html">YT</a><a href="contact.html">FB</a></div>
+    </div>
+    <div class="footer-bottom"><div><div class="footer-tagline">Create. Elevate. Inspire.</div><div>© 2026 OSOIS Network. All rights reserved.</div></div><div class="right"><div class="footer-tagline">A Higher Standard</div><div>A Brighter Tomorrow</div></div></div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
