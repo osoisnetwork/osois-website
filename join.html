@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply to the Academy — OSOIS Network</title>
+<meta name="description" content="Apply to the OSOIS Academy as a model or creative. Academy development is the pathway into the professional OSOIS Network.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="logo-group">
+      <img src="assets/logo-full.png" alt="OSOIS Network" class="logo-full-img">
+    </a>
+    <nav class="nav-links">
+      <a href="network.html">Network</a>
+      <a href="academy.html">Academy</a>
+      <a href="production.html">Production</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="join.html" class="btn btn-primary">Apply to Academy →</a>
+      <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-drawer">
+  <button class="close-drawer" aria-label="Close menu">&times;</button>
+  <a href="network.html">Network</a>
+  <a href="academy.html">Academy</a>
+  <a href="production.html">Production</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="join.html" class="btn btn-primary" style="width:fit-content;margin-top:10px;">Apply to Academy →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1600&q=80');"></div>
+  <div class="hero-content">
+    <span class="eyebrow">OSOIS Academy Application</span>
+    <h1>Your Path<br>Starts <span class="accent">Here.</span></h1>
+    <p class="lede">For models and creatives, the Academy is the first step. Develop your skills, meet the OSOIS standard, graduate, and become eligible for the professional Network.</p>
+    <div class="hero-cta">
+      <a href="#apply" class="btn btn-primary">Start Your Application →</a>
+      <a href="contact.html" class="btn btn-outline">Client / Brand Inquiry →</a>
+    </div>
+    <div class="hero-tags"><span>People</span><span>Purpose</span><span>Opportunity</span></div>
+  </div>
+  <div class="hero-side-list">
+    <span>Discipline</span><span>Creativity</span><span>Opportunity</span><span>A Brighter Tomorrow</span>
+  </div>
+</section>
+
+<!-- CHOOSE YOUR PATH -->
+<section class="darker section-tight">
+  <div class="container">
+    <span class="eyebrow">Choose Your Path</span>
+    <h2>Who Are<br>You?</h2>
+    <p class="narrow">Select the path that fits you best — it'll shape the application you fill out below.</p>
+
+    <div class="role-grid" id="roleGrid">
+      <div class="role-card active" data-role="Model">
+        <span class="role-icon">M</span>
+        <h4>Model</h4>
+        <p>Runway, print, commercial, editorial &amp; more.</p>
+      </div>
+      <div class="role-card" data-role="Photographer">
+        <span class="role-icon">P</span>
+        <h4>Photographer</h4>
+        <p>Editorial, commercial, and campaign work.</p>
+      </div>
+      <div class="role-card" data-role="Videographer">
+        <span class="role-icon">V</span>
+        <h4>Videographer</h4>
+        <p>Brand films, commercials, and content.</p>
+      </div>
+      <div class="role-card" data-role="HMUA">
+        <span class="role-icon">H</span>
+        <h4>HMUA</h4>
+        <p>Hair and makeup for shoots and productions.</p>
+      </div>
+      <div class="role-card" data-role="Stylist">
+        <span class="role-icon">S</span>
+        <h4>Stylist</h4>
+        <p>Wardrobe, styling, and art direction.</p>
+      </div>
+      <div class="role-card" data-role="Creative">
+        <span class="role-icon">C</span>
+        <h4>Creative</h4>
+        <p>Content, design, and creative direction.</p>
+      </div>
+      <div class="role-card" data-role="Production Crew">
+        <span class="role-icon">PC</span>
+        <h4>Production Crew</h4>
+        <p>On-set support and production roles.</p>
+      </div>
+    </div>
+    <div class="selected-role-note">Applying as: <span id="selectedRoleLabel">Model</span></div>
+  </div>
+</section>
+
+<!-- APPLICATION FORM -->
+<section id="apply" class="dark">
+  <div class="container split">
+    <div>
+      <span class="eyebrow">Start The Process</span>
+      <h2>Submit Your<br>Application.</h2>
+      <p class="narrow">Tell us about yourself. Our team reviews every application personally — no bots, no shortcuts.</p>
+      <form class="contact-form" id="joinForm">
+        <div class="form-row">
+          <input type="text" name="first_name" placeholder="First Name *" required>
+          <input type="text" name="last_name" placeholder="Last Name *" required>
+        </div>
+        <div class="form-row">
+          <input type="email" name="email" placeholder="Email Address *" required>
+          <input type="tel" name="phone" placeholder="Phone Number">
+        </div>
+        <input type="text" name="location" placeholder="City, State *" required>
+        <select name="category" id="categorySelect" required>
+          <option value="Model">Category: Model</option>
+          <option value="Photographer">Category: Photographer</option>
+          <option value="Videographer">Category: Videographer</option>
+          <option value="HMUA">Category: HMUA</option>
+          <option value="Stylist">Category: Stylist</option>
+          <option value="Creative">Category: Creative</option>
+          <option value="Production Crew">Category: Production Crew</option>
+        </select>
+        <select name="experience">
+          <option value="" disabled selected>Experience Level</option>
+          <option value="new">New / Just Starting Out</option>
+          <option value="some">Some Experience</option>
+          <option value="pro">Working Professional</option>
+        </select>
+        <input type="url" name="portfolio" placeholder="Instagram or Portfolio Link">
+        <textarea name="message" placeholder="Tell us about yourself and why you want to join OSOIS. *" required></textarea>
+        <label class="checkbox-field">
+          <input type="checkbox" required>
+          <span>I've reviewed the OSOIS standards below and agree to represent the network with faith, excellence, character, professionalism, and creativity.</span>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Submit Application →</button>
+          <span class="form-note">Application review timing may vary. Selected applicants will receive next-step instructions.</span>
+        </div>
+        <div class="form-status"></div>
+      </form>
+    </div>
+    <div class="media-box wide">
+      <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=900&q=80" alt="OSOIS talent portrait">
+    </div>
+  </div>
+</section>
+
+<!-- WHAT TO EXPECT -->
+<section class="darker" style="padding-top:0;">
+  <div class="container"><span class="eyebrow" style="display:block; margin-top:60px;">What To Expect</span></div>
+  <div class="steps steps-5">
+    <div class="step"><div class="idx">01</div><h4>Apply</h4><p>Submit your application above.</p></div>
+    <div class="step"><div class="idx">02</div><h4>Review</h4><p>Our team personally reviews every submission.</p></div>
+    <div class="step"><div class="idx">03</div><h4>Open Call</h4><p>Selected applicants complete the Academy review or open-call process.</p></div>
+    <div class="step"><div class="idx">04</div><h4>Train</h4><p>Complete Academy development and meet the OSOIS standard.</p></div>
+    <div class="step"><div class="idx">05</div><h4>Graduate</h4><p>Become eligible to enter the professional OSOIS Network.</p></div>
+  </div>
+</section>
+
+<!-- OSOIS STANDARDS -->
+<section class="dark">
+  <div class="container">
+    <span class="eyebrow">Before You Apply</span>
+    <h2>The OSOIS<br>Standard.</h2>
+    <p class="narrow">Everyone representing OSOIS is expected to reflect these values.</p>
+    <div class="pillars">
+      <div class="pillar"><span class="icon">✦</span><h4>Faith</h4><p>Our foundation in everything we do.</p></div>
+      <div class="pillar"><span class="icon">◆</span><h4>Excellence</h4><p>High standards in craft and conduct.</p></div>
+      <div class="pillar"><span class="icon">◈</span><h4>Character</h4><p>Integrity on and off set.</p></div>
+      <div class="pillar"><span class="icon">▲</span><h4>Professionalism</h4><p>Reliable, prepared, and respectful.</p></div>
+    </div>
+    <div class="tag-row" style="margin-top:40px;"><span>Creativity</span><span>Modesty</span><span>Safety</span><span>Growth &amp; Purpose</span></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="darker">
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:16px;">
+      <div>
+        <span class="eyebrow">Common Questions</span>
+        <h2>Before You<br>Apply.</h2>
+      </div>
+      <a href="contact.html" class="btn btn-outline">Still Have Questions? →</a>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item open">
+        <div class="faq-q"><span>Do I need experience to apply?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>No — many OSOIS members start with little to no experience and are trained through the OSOIS Academy before joining the active network.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Is there a fee to apply or join?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>Applying is free. Academy training has associated costs, which are explained during the review and onboarding process.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>What happens after I apply?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>Applications are reviewed by the OSOIS team. Selected applicants receive instructions for the next Academy step, which may include an open call or interview.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>I'm a brand or client. Where do I start?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>Use the Contact page to tell us about your project. The Academy application is for models and creatives entering the OSOIS development pathway.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>What happens after I'm accepted?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>Accepted applicants enter the Academy pathway. Graduation and meeting the OSOIS standard are required before entry into the professional Network.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Is OSOIS only for one category of talent?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>Not at all — OSOIS is a network for models, photographers, videographers, HMUA, stylists, creatives, and production crew alike.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSER -->
+<section class="closer">
+  <div class="closer-bg" style="background-image:url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1600&q=80');"></div>
+  <div class="closer-side"><span>Discipline</span><span>Creativity</span><span>Opportunity</span><span>A Brighter Tomorrow</span></div>
+  <div class="container closer-content">
+    <span class="eyebrow">Ready When You Are</span>
+    <h2>Be Part Of<br>Something Greater.</h2>
+    <p>Your application is the first step toward real training, real projects, and real opportunity.</p>
+    <div class="hero-cta">
+      <a href="#apply" class="btn btn-primary">Start Your Application →</a>
+      <a href="contact.html" class="btn btn-outline">Contact Us First →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="index.html" class="logo-group">
+        <img src="assets/logo-full.png" alt="OSOIS Network" class="logo-full-img footer-logo">
+      </a>
+      <nav class="footer-nav">
+        <a href="network.html">Network</a>
+        <a href="academy.html">Academy</a>
+        <a href="production.html">Production</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="contact.html" aria-label="Instagram — contact OSOIS">IG</a>
+        <a href="contact.html" aria-label="TikTok — contact OSOIS">TT</a>
+        <a href="contact.html" aria-label="YouTube — contact OSOIS">YT</a>
+        <a href="contact.html" aria-label="Facebook — contact OSOIS">FB</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        <div class="footer-tagline">Create. Elevate. Inspire.</div>
+        <div>© 2026 OSOIS Network. All rights reserved.</div>
+      </div>
+      <div class="right">
+        <div class="footer-tagline">A Higher Standard</div>
+        <div>A Brighter Tomorrow</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
